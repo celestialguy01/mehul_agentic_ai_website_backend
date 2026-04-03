@@ -12,6 +12,7 @@ langchain-community==0.3.12
 langchain-openai==0.2.6
 langchain-text-splitters==0.3.4
 langgraph==0.2.53
+langchain-chroma==0.1.4
 
 # OpenAI
 openai==1.82.1
