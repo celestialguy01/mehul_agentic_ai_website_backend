@@ -19,7 +19,7 @@ class QueryResponse(BaseModel):
 
 @app.get("/")
 def root():
-    return {"status": "ok"}
+    return {"message": "API is running"}
 
 
 @app.post("/chat", response_model=QueryResponse)
