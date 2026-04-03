@@ -20,7 +20,7 @@ openai==1.82.1
 chromadb==0.5.18
 
 # Tokenization
-tiktoken==0.7.0
+tiktoken==0.5.2
 
 # HTTP
 httpx==0.28.1
