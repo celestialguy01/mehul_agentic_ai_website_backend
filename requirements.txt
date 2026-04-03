@@ -19,9 +19,6 @@ openai==1.82.1
 # Vector DB
 chromadb==0.5.18
 
-# Tokenization
-tiktoken==0.5.2
-
 # HTTP
 httpx==0.28.1
 requests==2.32.5
