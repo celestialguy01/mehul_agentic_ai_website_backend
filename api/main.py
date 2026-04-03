@@ -17,6 +17,10 @@ class QueryRequest(BaseModel):
 class QueryResponse(BaseModel):
     answer: str
 
+@app.get("/")
+def root():
+    return {"message": "API is running"}
+
 
 @app.post("/chat", response_model=QueryResponse)
 def chat_endpoint(request: QueryRequest):
